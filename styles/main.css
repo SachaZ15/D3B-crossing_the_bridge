@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(203,187,160);
+  color: white;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+
+ul {
+list-style-type: none;
+
+}
+
+li {
+/*border: 1px solid #efefef;*/
+width: 5vw;
+height: 6vw;
+
+
+}
+
+article {
+/*  display: flex ;
+  justify-content: space-between; */
+}
+aside {
+  background: #c2c2c2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.choix li{
+  width: 10vw
+}
+.choix ul {
+  font-size: 0.7em;
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 5vh;
+
+}
+.etat {
+  min-height: 80vh;
+ display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  /*background: yellow;*/
+  margin-right: 40px;
+
+}
+
+.boat-left  {
+  background: url("images/b-left3.svg") no-repeat top center ;
+    background-size: cover;
+}
+
+.boat-right {
+  background: url("images/b-right3.svg") no-repeat top center ;
+  background-size: cover;
+
+}
+.rivegauche{
+  display: flex;
+
+}
+.rivedroight {
+  display: flex;
+  align-items: flex-end;
+}
+img {
+width: 100%;
+}
