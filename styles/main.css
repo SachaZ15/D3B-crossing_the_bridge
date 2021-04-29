@@ -18,7 +18,10 @@ height: 6vw;
 
 
 }
-
+h1 {
+  display:flex;
+  align-content: center;
+}
 article {
 /*  display: flex ;
   justify-content: space-between; */
