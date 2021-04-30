@@ -4,7 +4,20 @@ body {
   font-size: 1.5em;
   font-family: sans-serif;
 }
+.perdu {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main {
+  border: 2px solid pink;
 
+  flex-basis: 640px;
+  padding: 2em;
+  text-align: center;
+
+}
 
 ul {
 list-style-type: none;
@@ -19,8 +32,7 @@ height: 6vw;
 
 }
 h1 {
-  display:flex;
-  align-content: center;
+  
 }
 article {
 /*  display: flex ;
