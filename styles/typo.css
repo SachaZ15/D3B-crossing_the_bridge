@@ -5,3 +5,25 @@ h1 {
   margin-bottom: 1.75em;
   font-family: 'Original Surfer', cursive;
 }
+
+.choix{
+  font-family: sans-serif;
+  font-size: 40px;
+
+}
+
+h2{
+  font-size: 3em;
+  margin-bottom: 1em;
+  font-family: 'Original Surfer', cursive;
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 5em;
+  margin-bottom: 1.75em;
+  font-family: 'Original Surfer', cursive;
+}
